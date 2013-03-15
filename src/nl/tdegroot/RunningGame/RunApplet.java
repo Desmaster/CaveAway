@@ -6,7 +6,7 @@ import org.newdawn.slick.SlickException;
 public class RunApplet {
 
 	public static void main(String[] args) throws SlickException {
-		AppGameContainer game = new AppGameContainer(new CaveGame("Running Game"));
+		AppGameContainer game = new AppGameContainer(new CaveGame("Cave Away"));
 
 		game.setDisplayMode(1280, 720, false);
 		game.setTargetFrameRate(60);
