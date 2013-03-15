@@ -4,16 +4,10 @@
     <list default="true" id="3a2c30d3-e255-4246-addd-4c8a7a613fc4" name="Default" comment="" />
     <ignored path="CaveAway.iws" />
     <ignored path=".idea/workspace.xml" />
-<<<<<<< HEAD
-    <file path="/Dummy.txt" changelist="3a2c30d3-e255-4246-addd-4c8a7a613fc4" time="1363381587182" ignored="false" />
-    <file path="/fragment.java" changelist="3a2c30d3-e255-4246-addd-4c8a7a613fc4" time="1363342565548" ignored="false" />
-    <file path="/Level.java" changelist="3a2c30d3-e255-4246-addd-4c8a7a613fc4" time="1363362199543" ignored="false" />
-=======
     <file path="/Dummy.txt" changelist="3a2c30d3-e255-4246-addd-4c8a7a613fc4" time="1363374969112" ignored="false" />
     <file path="/fragment.java" changelist="3a2c30d3-e255-4246-addd-4c8a7a613fc4" time="1363375512430" ignored="false" />
     <file path="/Level.java" changelist="3a2c30d3-e255-4246-addd-4c8a7a613fc4" time="1363375263661" ignored="false" />
     <file path="/Player.java" changelist="3a2c30d3-e255-4246-addd-4c8a7a613fc4" time="1363375379595" ignored="false" />
->>>>>>> 69efc1ce3359c1865dfaea0e782aa5fbec2d632a
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +65,6 @@
     <favorites_list name="CaveAway" />
   </component>
   <component name="FileEditorManager">
-<<<<<<< HEAD
-    <leaf />
-=======
     <leaf>
       <file leaf-file-name="RunApplet.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nl/tdegroot/RunningGame/RunApplet.java">
@@ -84,53 +75,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Camera.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nl/tdegroot/RunningGame/Camera.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="38" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Level.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Level.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/nl/tdegroot/RunningGame/Level.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="50" selection-start="1336" selection-end="1336" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nl/tdegroot/RunningGame/entity/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Entity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nl/tdegroot/RunningGame/entity/Entity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="18" selection-start="1426" selection-end="1426" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CaveGame.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/nl/tdegroot/RunningGame/CaveGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="108" selection-start="520" selection-end="520" vertical-scroll-proportion="0.20376712">
-              <folding />
+            <state line="1" column="82" selection-start="33" selection-end="33" vertical-scroll-proportion="0.036637932">
+              <folding>
+                <element signature="e#647#655#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
->>>>>>> 69efc1ce3359c1865dfaea0e782aa5fbec2d632a
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -151,16 +107,16 @@
       <list>
         <option value="$PROJECT_DIR$/src/nl/tdegroot/RunningGame/entity/Player.java" />
         <option value="$PROJECT_DIR$/src/nl/tdegroot/RunningGame/entity/Entity.java" />
-        <option value="$PROJECT_DIR$/src/nl/tdegroot/RunningGame/Level.java" />
         <option value="$PROJECT_DIR$/src/nl/tdegroot/RunningGame/CaveGame.java" />
+        <option value="$PROJECT_DIR$/src/nl/tdegroot/RunningGame/Level.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="width" value="1616" />
+    <option name="height" value="886" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -228,10 +184,6 @@
       <sortByType />
     </navigator>
     <panes>
-<<<<<<< HEAD
-      <pane id="PackagesPane" />
-=======
->>>>>>> 69efc1ce3359c1865dfaea0e782aa5fbec2d632a
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -338,10 +290,7 @@
           </PATH>
         </subPane>
       </pane>
-<<<<<<< HEAD
-=======
       <pane id="PackagesPane" />
->>>>>>> 69efc1ce3359c1865dfaea0e782aa5fbec2d632a
       <pane id="Scope" />
     </panes>
   </component>
@@ -358,9 +307,9 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="Application.RunApplet">
     <configuration default="false" name="RunApplet" type="Application" factoryName="Application" temporary="true">
@@ -399,19 +348,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -437,6 +373,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -514,13 +463,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
-    <editor active="false" />
-=======
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
->>>>>>> 69efc1ce3359c1865dfaea0e782aa5fbec2d632a
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -530,20 +474,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921812" sideWeight="0.4980695" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-=======
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
->>>>>>> 69efc1ce3359c1865dfaea0e782aa5fbec2d632a
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24919957" sideWeight="0.6710671" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893288" sideWeight="0.497426" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24903475" sideWeight="0.67215365" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32784638" sideWeight="0.497426" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -608,20 +548,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/nl/tdegroot/RunningGame/Level.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="52" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/tdegroot/RunningGame/entity/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="52" selection-start="1527" selection-end="1527" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nl/tdegroot/RunningGame/RunApplet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="31" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
@@ -639,7 +565,9 @@
     <entry file="file://$PROJECT_DIR$/src/nl/tdegroot/RunningGame/Level.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="8" selection-start="787" selection-end="903" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#647#655#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -667,7 +595,9 @@
     <entry file="file://$PROJECT_DIR$/src/nl/tdegroot/RunningGame/Level.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="25" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#647#655#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -697,13 +627,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/tdegroot/RunningGame/RunApplet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="31" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nl/tdegroot/RunningGame/entity/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0">
@@ -711,36 +634,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/tdegroot/RunningGame/Level.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="47" column="52" selection-start="1527" selection-end="1527" vertical-scroll-proportion="0.024182077">
-=======
-        <state line="47" column="50" selection-start="1336" selection-end="1336" vertical-scroll-proportion="0.0">
->>>>>>> 69efc1ce3359c1865dfaea0e782aa5fbec2d632a
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nl/tdegroot/RunningGame/entity/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-=======
-        <state line="43" column="18" selection-start="1426" selection-end="1426" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
->>>>>>> 69efc1ce3359c1865dfaea0e782aa5fbec2d632a
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nl/tdegroot/RunningGame/CaveGame.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state line="38" column="52" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.024182077">
-=======
-        <state line="17" column="108" selection-start="520" selection-end="520" vertical-scroll-proportion="0.20376712">
->>>>>>> 69efc1ce3359c1865dfaea0e782aa5fbec2d632a
+        <state line="38" column="52" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.024182077" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/tdegroot/RunningGame/RunApplet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="31" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/tdegroot/RunningGame/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="82" selection-start="33" selection-end="33" vertical-scroll-proportion="0.036637932">
+          <folding>
+            <element signature="e#647#655#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -19,11 +19,9 @@ public class Level {
 
 	private final BigImage background;
 	private Vector2f size;
+	private TiledMapPlus map;
 
 	private List<Entity> entities = new ArrayList<Entity>();
-	private List<Rectangle> collidables = new ArrayList<Rectangle>();
-
-	private TiledMapPlus map;
 
 	public Level(BigImage background, Vector2f size) {
 		this.background = background;
