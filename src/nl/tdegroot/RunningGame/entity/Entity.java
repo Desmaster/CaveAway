@@ -99,7 +99,7 @@ public class Entity {
 
 	public void render(Camera camera, GameContainer gameContainer, Graphics g) {
 		frame++;
-		if (frame % 10 == 0)
+		if (frame % 6 == 0)
 			animIndex = ((animIndex + 1) % animCount);
 		sheet.startUse();
 		sheet.renderInUse((int) (position.getX() - camera.getX()), (int) position.getY(), animIndex, animType);
