@@ -36,12 +36,16 @@ public class CaveGame extends BasicGame {
 
 	public void logic(GameContainer gameContainer) {
 		if (gameContainer.getInput().isKeyDown(Input.KEY_ESCAPE))
-			System.exit(0);
+			stop();
 		Display.setTitle("Running Game | " + gameContainer.getFPS() + " fps");
 	}
 
 	public void render(GameContainer gameContainer, Graphics g) throws SlickException {
 		level.render(camera, gameContainer, g);
+	}
+
+	public void stop() {
+		System.exit(0);
 	}
 
 	public Player getPlayer() {

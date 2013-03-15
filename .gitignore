@@ -1,11 +1,12 @@
 #################
-## Eclipse
+## Eclipse and IntelliJ IDEA
 #################
 
 *.pydevproject
 .project
 .metadata
 .idea/
+.idea/*.xml
 bin/
 tmp/
 *.class
@@ -13,6 +14,7 @@ tmp/
 *.bak
 *.swp
 *~.nib
+*.iml
 local.properties
 .classpath
 .settings/
