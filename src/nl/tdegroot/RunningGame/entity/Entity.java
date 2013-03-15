@@ -2,7 +2,6 @@ package nl.tdegroot.RunningGame.entity;
 
 import nl.tdegroot.RunningGame.Camera;
 import nl.tdegroot.RunningGame.Level;
-
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 import org.newdawn.slick.Image;
@@ -64,19 +63,7 @@ public class Entity {
 		if (newY > 720 - position.getHeight())
 			newY = 720 - position.getHeight();
 
-		// if (!level.collides(new Rectangle(newX, newY, position.getWidth(),
-		// position.getHeight()))) {
-		// position.setLocation(newX, newY);
-		// } else if (!level.collides(new Rectangle(newX, position.getY(),
-		// position.getWidth(), position.getHeight()))) {
-		// position.setLocation(newX, position.getY());
-		// } else if (!level.collides(new Rectangle(position.getX(), newY,
-		// position.getWidth(), position.getHeight()))) {
-		// position.setLocation(position.getX(), position.getY());
-		// }
-
 		Rectangle newPos = new Rectangle(newX, newY, position.getWidth(), position.getHeight());
-		level.collides(newPos);
 		position = newPos;
 
 		wasJumping = isJumping;

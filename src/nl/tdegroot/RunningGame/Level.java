@@ -13,6 +13,7 @@ import org.newdawn.slick.geom.Rectangle;
 import org.newdawn.slick.geom.Vector2f;
 import org.newdawn.slick.tiled.Base64;
 import org.newdawn.slick.tiled.TiledMap;
+import org.newdawn.slick.tiled.TiledMapPlus;
 
 public class Level {
 
@@ -22,13 +23,13 @@ public class Level {
 	private List<Entity> entities = new ArrayList<Entity>();
 	private List<Rectangle> collidables = new ArrayList<Rectangle>();
 
-	private TiledMap map;
+	private TiledMapPlus map;
 
 	public Level(BigImage background, Vector2f size) {
 		this.background = background;
 		this.size = size;
 		try {
-			map = new TiledMap("res/maps/level.tmx");
+			map = new TiledMapPlus("res/maps/level.tmx");
 		} catch (SlickException e) {
 			e.printStackTrace();
 		}
@@ -41,7 +42,7 @@ public class Level {
 	}
 
 	public void render(Camera camera, GameContainer gameContainer, Graphics g) {
-//		background.draw(-camera.getX(), 0, size.getX(), size.getY());
+		background.draw(-camera.getX(), 0, size.getX(), size.getY());
 		map.render(0, 50);
 		for (Entity entity : entities) {
 			entity.render(camera, gameContainer, g);
@@ -54,39 +55,6 @@ public class Level {
 
 	public void addEntity(Entity entity) {
 		entities.add(entity);
-	}
-
-	public boolean collides(Rectangle rect) {
-		for (Rectangle collidable : collidables) {
-			if (rect.intersects(collidable)) {
-				if (rect.getMaxX() > collidable.getMinX()) {
-					// rect.setX(rect.getX() - (collidable.getMinX() -
-					// rect.getMaxX()));
-				}
-				if (rect.getMinX() < collidable.getMaxX()) {
-					// rect.setX(rect.getX() + (rect.getMinX() -
-					// collidable.getMaxX()));
-				}
-				if (rect.getMaxY() > collidable.getMinY()) {
-					rect.setY(collidable.getMinY() - 1 - rect.getHeight());
-				}
-				if (rect.getMinX() < collidable.getMaxX()) {
-					// rect.setY(rect.getY() + (rect.getMinY() -
-					// collidable.getMaxY()));
-				}
-				return true;
-			}
-
-		}
-		return false;
-	}
-
-	public boolean collides(float x, float y) {
-		for (Rectangle collidable : collidables) {
-			if (collidable.contains(x, y))
-				return true;
-		}
-		return false;
 	}
 
 }
