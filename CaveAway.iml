@@ -34,7 +34,7 @@
           <root url="http://www.slick2d.org/javadoc/" />
         </JAVADOC>
         <SOURCES>
-          <root url="file://C:/Users/TIMONDESKTOP/Dropbox/BitBucket/Slick Source" />
+          <root url="file://$USER_HOME$/Dropbox/BitBucket/Slick Source" />
         </SOURCES>
       </library>
     </orderEntry>

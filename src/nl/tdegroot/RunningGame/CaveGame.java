@@ -1,7 +1,6 @@
 package nl.tdegroot.RunningGame;
 
 import nl.tdegroot.RunningGame.entity.Player;
-
 import org.lwjgl.opengl.Display;
 import org.newdawn.slick.BasicGame;
 import org.newdawn.slick.BigImage;
