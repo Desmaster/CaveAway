@@ -6,7 +6,7 @@
 .project
 .metadata
 .idea/
-.idea/*.xml
+.idea/workspace.xml
 bin/
 tmp/
 *.class

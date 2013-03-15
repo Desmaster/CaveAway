@@ -23,11 +23,11 @@ public class Level {
 
 	private List<Entity> entities = new ArrayList<Entity>();
 
-	public Level(BigImage background, Vector2f size) {
+	public Level(BigImage background, String mapUrl, Vector2f size) {
 		this.background = background;
 		this.size = size;
 		try {
-			map = new TiledMapPlus("res/maps/level.tmx");
+			map = new TiledMapPlus(mapUrl);
 		} catch (SlickException e) {
 			e.printStackTrace();
 		}
