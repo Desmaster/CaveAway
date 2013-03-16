@@ -26,6 +26,10 @@ public class Player extends Entity {
 			animType = ANIMATION_TYPE_JUMP;
 			animIndex = 0;
 		}
+
 		move();
+		if (frame % (102 / delta) == 0) {
+			animIndex = ((animIndex + 1) % animCount);
+		}
 	}
 }

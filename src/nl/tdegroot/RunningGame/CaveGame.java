@@ -2,8 +2,10 @@ package nl.tdegroot.RunningGame;
 
 import nl.tdegroot.RunningGame.entity.Player;
 import org.lwjgl.opengl.Display;
+import org.lwjgl.opengl.GL11;
 import org.newdawn.slick.BasicGame;
 import org.newdawn.slick.BigImage;
+import org.newdawn.slick.Color;
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 import org.newdawn.slick.Image;
@@ -23,7 +25,7 @@ public class CaveGame extends BasicGame {
 	}
 
 	public void init(GameContainer gameContainer) throws SlickException {
-		level = new Level(new BigImage("/res/images/level.png"), "res/maps/level.tmx", new Vector2f(2560.0F, 720.0F));
+		level = new Level(new BigImage("/res/images/level.png"), "res/maps/level2.tmx", new Vector2f(2560.0F, 720.0F));
 		player = new Player(level, new Image("/res/images/playerAnim.png"), 49, 117);
 		camera = new Camera(player, level, new Vector2f(1280f, 720f), new Rectangle(0, 0, 2560, 720));
 		level.addEntity(player);

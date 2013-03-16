@@ -44,6 +44,9 @@ public class Entity {
 	public void update(GameContainer gameContainer, int delta) {
 		velocity.x += horizontalSpeed * 0.85f;
 		move();
+		if (frame % (102 / delta) == 0) {
+			animIndex = ((animIndex + 1) % animCount);
+		}
 	}
 
 	public void move() {
@@ -60,8 +63,8 @@ public class Entity {
 		float newX = position.getX() + velocity.x;
 		float newY = position.getY() + velocity.y;
 
-		if (newY > 720 - position.getHeight())
-			newY = 720 - position.getHeight();
+		if (newY > 720 - position.getHeight() - 16)
+			newY = 720 - position.getHeight() - 16;
 
 		Rectangle newPos = new Rectangle(newX, newY, position.getWidth(), position.getHeight());
 		position = newPos;
@@ -69,7 +72,7 @@ public class Entity {
 		wasJumping = isJumping;
 		wasMoving = isMoving;
 
-		isJumping = newY < 720 - getPosition().getHeight();
+		isJumping = newY < 720 - getPosition().getHeight() - 16;
 		isMoving = Math.abs(velocity.x) > 0;
 
 		if (wasJumping && !isJumping) {
@@ -82,12 +85,11 @@ public class Entity {
 			animType = ANIMATION_TYPE_RUN;
 			animIndex = 0;
 		}
+		frame++;
 	}
 
 	public void render(Camera camera, GameContainer gameContainer, Graphics g) {
-		frame++;
-		if (frame % 6 == 0)
-			animIndex = ((animIndex + 1) % animCount);
+
 		sheet.startUse();
 		sheet.renderInUse((int) (position.getX() - camera.getX()), (int) position.getY(), animIndex, animType);
 		sheet.endUse();

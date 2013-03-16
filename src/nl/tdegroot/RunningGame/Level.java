@@ -1,19 +1,15 @@
 package nl.tdegroot.RunningGame;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import nl.tdegroot.RunningGame.entity.Entity;
-
 import org.newdawn.slick.BigImage;
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 import org.newdawn.slick.SlickException;
-import org.newdawn.slick.geom.Rectangle;
 import org.newdawn.slick.geom.Vector2f;
-import org.newdawn.slick.tiled.Base64;
-import org.newdawn.slick.tiled.TiledMap;
 import org.newdawn.slick.tiled.TiledMapPlus;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Level {
 
@@ -41,7 +37,7 @@ public class Level {
 
 	public void render(Camera camera, GameContainer gameContainer, Graphics g) {
 		background.draw(-camera.getX(), 0, size.getX(), size.getY());
-		map.render(0, 50);
+		map.render((int) -camera.getX(), 0, 0, 0, (int) size.getX(), (int) size.getY());
 		for (Entity entity : entities) {
 			entity.render(camera, gameContainer, g);
 		}

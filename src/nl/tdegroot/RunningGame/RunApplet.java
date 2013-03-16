@@ -9,7 +9,7 @@ public class RunApplet {
 		AppGameContainer game = new AppGameContainer(new CaveGame("Cave Away"));
 
 		game.setDisplayMode(1280, 720, false);
-		game.setTargetFrameRate(60);
+		game.setShowFPS(true);
 		game.setMaximumLogicUpdateInterval(17);
 		game.setMinimumLogicUpdateInterval(17);
 		game.start();

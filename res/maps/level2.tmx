@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="160" height="45" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="spritesheet" tilewidth="16" tileheight="16">
+  <image source="../../../../Dropbox/BitBucket/Snow/res/textures/sheets/spritesheet.png" trans="ff00ff" width="256" height="256"/>
+ </tileset>
+ <layer name="Tilelaag 1" width="160" height="45">
+  <data encoding="base64" compression="zlib">
+   eJztwzENAAAMA6DWv+la2LcHEhIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuqo8HOc8AoQ==
+  </data>
+ </layer>
+</map>
