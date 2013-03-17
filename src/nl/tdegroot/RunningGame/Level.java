@@ -13,14 +13,14 @@ import java.util.List;
 
 public class Level {
 
-	private final BigImage background;
+	private final BigImage backGround;
 	private Vector2f size;
 	private TiledMapPlus map;
 
 	private List<Entity> entities = new ArrayList<Entity>();
 
-	public Level(BigImage background, String mapUrl, Vector2f size) {
-		this.background = background;
+	public Level(BigImage backGround, String mapUrl, Vector2f size) {
+		this.backGround = backGround;
 		this.size = size;
 		try {
 			map = new TiledMapPlus(mapUrl);
@@ -36,7 +36,7 @@ public class Level {
 	}
 
 	public void render(Camera camera, GameContainer gameContainer, Graphics g) {
-		background.draw(-camera.getX(), 0, size.getX(), size.getY());
+		backGround.draw(-camera.getX(), 0, size.getX(), size.getY());
 		map.render((int) -camera.getX(), 0, 0, 0, (int) size.getX(), (int) size.getY());
 		for (Entity entity : entities) {
 			entity.render(camera, gameContainer, g);
