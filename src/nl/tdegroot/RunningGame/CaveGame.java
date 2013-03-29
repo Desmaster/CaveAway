@@ -45,7 +45,7 @@ public class CaveGame extends BasicGame {
 		level.render(camera, gameContainer, g);
 	}
 
-	public void stop() {
+	private void stop() {
 		System.exit(0);
 	}
 
