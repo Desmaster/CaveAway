@@ -8,6 +8,7 @@ import org.newdawn.slick.Image;
 import org.newdawn.slick.SpriteSheet;
 import org.newdawn.slick.geom.Rectangle;
 import org.newdawn.slick.geom.Vector2f;
+import org.newdawn.slick.tiled.TiledMapPlus;
 
 public class Entity {
 
@@ -66,7 +67,8 @@ public class Entity {
 		if (newY > 720 - position.getHeight() - 16)
 			newY = 720 - position.getHeight() - 16;
 
-		Rectangle newPos = new Rectangle(newX, newY, position.getWidth(), position.getHeight());
+		Rectangle newPos = collision(newX, newY);
+
 		position = newPos;
 
 		wasJumping = isJumping;
@@ -75,21 +77,34 @@ public class Entity {
 		isJumping = newY < 720 - getPosition().getHeight() - 16;
 		isMoving = Math.abs(velocity.x) > 0;
 
-		if (wasJumping && !isJumping) {
+		if (wasJumping && ! isJumping) {
 			animType = isMoving ? ANIMATION_TYPE_RUN : ANIMATION_TYPE_IDLE;
 			animIndex = 0;
-		} else if (wasMoving && !isMoving) {
+		} else if (wasMoving && ! isMoving) {
 			animType = isJumping ? ANIMATION_TYPE_JUMP : ANIMATION_TYPE_IDLE;
 			animIndex = 0;
-		} else if (!wasMoving && isMoving) {
+		} else if (! wasMoving && isMoving) {
 			animType = ANIMATION_TYPE_RUN;
 			animIndex = 0;
 		}
 		frame++;
 	}
 
-	public void render(Camera camera, GameContainer gameContainer, Graphics g) {
+	public Rectangle collision(float x, float y) {
+		float xx = x / 16;
+		float yy = y / 16;
+		float ya = yy + (getPosition().getHeight() / 16);
+		int i = 0;
+		TiledMapPlus map = level.map;
+		if (!(xx < 0 || xx > map.getWidth()))
+		i = map.getTileId((int) xx, (int) ya, 0);
+		if (i == 1) {
+			System.out.println("Surface!");
+		}
+		return new Rectangle(xx * 16, yy * 16, position.getWidth(), position.getHeight());
+	}
 
+	public void render(Camera camera, GameContainer gameContainer, Graphics g) {
 		sheet.startUse();
 		sheet.renderInUse((int) (position.getX() - camera.getX()), (int) position.getY(), animIndex, animType);
 		sheet.endUse();

@@ -15,7 +15,7 @@ public class Level {
 
 	private final BigImage backGround;
 	private Vector2f size;
-	private TiledMapPlus map;
+	public TiledMapPlus map;
 
 	private List<Entity> entities = new ArrayList<Entity>();
 
